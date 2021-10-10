@@ -1,0 +1,7 @@
+flask
+youtube_transcript_api
+json
+nltk
+os
+yake
+time
