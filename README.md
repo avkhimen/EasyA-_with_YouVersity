@@ -26,7 +26,7 @@ pip3 install requirements.txt
 
 ### Launch Website
 ```
-open home.html
+python app.py
 ```
 
 ### Input URL for topics segmentation 
