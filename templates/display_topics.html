@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body background="{{ url_for('static', filename='img_girl11.jpg') }}">
+
+<h1>Save Time Watching Videos with EasyA+!</h1>
+<p>Want to learn about a topic but don't have time? Try our topic segementation tool for free!</p>
+<p><a>See your topics below:</a></p>
+<br>
+
+<ul> 
+{% for topic, time, topic_url in topics %} 
+	<li><a href="{{ topic_url }}" target="_blank">Topic '{{ topic }}' at {{ time }} mins into the video</a></li>
+	<p></p>
+{% endfor %} 
+</ul>
+
+</body>
+</html>
