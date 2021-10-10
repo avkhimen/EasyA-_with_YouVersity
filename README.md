@@ -1,6 +1,6 @@
 MAKEUC 2021 Hackathon
 
-Team: EasyA+ with YoUniversity
+Team: EasyA+ with YouVersity
 ==============================
 
 #### Team members
